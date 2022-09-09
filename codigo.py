@@ -11,3 +11,12 @@ movimiento_tablero = {
     8: [1, 3],
     9: [2, 4]
 }
+#Definimos una  funcion para averiguar los movimientos dependiendo del punto de partida
+def calcularmovimientos(puntoinicial, pasos):
+    movimiento = 0
+    if pasos:
+        for movimientosiguiente in movimiento_tablero[puntoinicial]:
+            print(f"{pasos}: {puntoinicial} -> {movimientosiguiente}")
+            movimiento += 1 + calcular(movimientosiguiente, pasos - 1)
+
+    return movimiento
