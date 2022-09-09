@@ -27,3 +27,23 @@ def totalpasos(pasos):
     for i in range(10):
         total += calcular(i, pasos)
     return total
+
+#Solucion del reto
+print(totalpasos(1))
+print("/n")
+print(totalpasos(2))
+print("/n")
+print(totalpasos(3))
+print("/n")
+print(totalpasos(4))
+print("/n")
+print(totalpasos(5))
+print("/n")
+print(totalpasos(6))
+print("/n")
+print(totalpasos(7))
+print("/n")
+print(totalpasos(8))
+print("/n")
+print(totalpasos(9))
+
