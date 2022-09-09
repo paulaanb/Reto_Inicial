@@ -38,3 +38,5 @@ print("Si hago siete movimientos, tengo " + str(totalpasos(7)) + " posibilidades
 print("Si hago ocho movimientos, tengo " + str(totalpasos(8)) + " posibilidades.")
 print("Si hago nueve movimientos, tengo " + str(totalpasos(9)) + " posibilidades.")
 
+#Ponemos los test para comprobar los errores
+python3 -m doctest -v my_submission.py
