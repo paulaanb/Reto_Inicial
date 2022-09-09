@@ -20,3 +20,10 @@ def calcularmovimientos(puntoinicial, pasos):
             movimiento += 1 + calcular(movimientosiguiente, pasos - 1)
 
     return movimiento
+
+#Funcion para ver el recorrido de cada celda de partida,movimientos y de el resultado final
+def totalpasos(pasos):
+    total = 0
+    for i in range(10):
+        total += calcular(i, pasos)
+    return total
