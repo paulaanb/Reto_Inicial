@@ -8,7 +8,7 @@ Este trabajo en grupo esta compuesto por los siguientes integrantes:
 - Ana López
 - Laura Rodríguez
 
-## Descripción de la actividad del caballo
+## Descripción de la actividad
 
 Para comenzar a introducir al alumno en esta mecánica práctica se puede plantear un primer ejercicio: “Resuelva el problema de mover el caballo de ajedrez sobre el teclado de un teléfono”.
 Suponga que tiene a su disposición dicha ficha del ajedrez, y que se puede mover en ciertas formas particulares como se observa en la figura 1. Ahora, desea saber cuántos movimientos válidos pueden realizarse partiendo con el caballo desde todos los números del teclado realizando un movimiento desde cada número.
