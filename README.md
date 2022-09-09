@@ -1,4 +1,4 @@
-# Reto_Inicial
+# Reto Inicial
 El link del repositorio es el siguiente: [Github:https://github.com/paulaanb/Reto_Inicial]
 
 Este trabajo en grupo esta compuesto por los siguientes integrantes:
@@ -8,7 +8,7 @@ Este trabajo en grupo esta compuesto por los siguientes integrantes:
 - Ana López
 - Laura Rodríguez
 
-La descripción del reto es el siguiente:
+## Descripción de la actividad del caballo
 
 Para comenzar a introducir al alumno en esta mecánica práctica se puede plantear un primer ejercicio: “Resuelva el problema de mover el caballo de ajedrez sobre el teclado de un teléfono”.
 Suponga que tiene a su disposición dicha ficha del ajedrez, y que se puede mover en ciertas formas particulares como se observa en la figura 1. Ahora, desea saber cuántos movimientos válidos pueden realizarse partiendo con el caballo desde todos los números del teclado realizando un movimiento desde cada número.
@@ -48,3 +48,8 @@ Cuando haya entendido el problema y tenga una solución en mente, desarrolle un 
 | 9	| 46 | 352	|   |
 | 10	| 92	| 724	|  |
 | 15	| 285.053	| 2.279.184	|   |
+
+## Código de la actividad del caballo
+
+```
+```
