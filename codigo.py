@@ -1,4 +1,4 @@
-#Creamos el tablero con los movimientos que puede realizar cada numero dentro del tablero
+# Creamos un diccionario que guarda los movimientos posibles en cada posición del tablero.
 movimiento_tablero = {
     0: [6, 4],
     1: [6, 8],
@@ -11,13 +11,14 @@ movimiento_tablero = {
     8: [1, 3],
     9: [2, 4]
 }
-#Definimos una  funcion para averiguar los movimientos dependiendo del punto de partida
+
+# Definimos una funcion para averiguar los movimientos dependiendo del punto de partida
 def calcularmovimientos(puntoinicial, pasos):
     movimiento = 0
     if pasos:
         for movimientosiguiente in movimiento_tablero[puntoinicial]:
             print(f"{pasos}: {puntoinicial} -> {movimientosiguiente}")
-            movimiento += 1 + calcular(movimientosiguiente, pasos - 1)
+            movimiento += 1 + calcularmovimientos(movimientosiguiente, pasos - 1)
 
     return movimiento
 
